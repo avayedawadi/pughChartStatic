@@ -1,11 +1,19 @@
 {
+  "name": "storybook-static",
+  "version": "1.0.0",
+  "description": "Storybook deployment",
+  "main": "92177867.js",
   "scripts": {
-    "build-storybook": "build-storybook"
+    "deploy": "gh-pages -d index.html"
   },
-  "dependencies": {
-    "storybook": "^6.3.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avayedawadi/storybook-pugh-chart.git"
   },
-  "devDependencies": {
-    "chromatic": "^5.9.2"
+  "author": "Avaye Dawadi",
+  "license": "ISC",
+  "homepage":"https://avayedawadi.github.io/storybook-pugh-chart",
+  "bugs": {
+    "url": "https://github.com/avayedawadi/storybook-pugh-chart/issues"
   }
 }
