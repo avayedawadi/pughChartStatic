@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build-storybook": "tsc && build-storybook"
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "storybook": "^6.3.2"
