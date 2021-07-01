@@ -11,6 +11,7 @@
     "build-storybook": "tsc && build-storybook"
   },
   "dependencies": {
-    "chromatic": "^5.9.2"
+    "chromatic": "^5.9.2",
+    "storybook": "^6.3.2"
   }
 }
