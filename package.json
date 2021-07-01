@@ -4,7 +4,7 @@
   "description": "Storybook deployment",
   "main": "92177867.js",
   "scripts": {
-    "deploy": "gh-pages -d index.html"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -12,8 +12,11 @@
   },
   "author": "Avaye Dawadi",
   "license": "ISC",
-  "homepage":"https://avayedawadi.github.io/storybook-pugh-chart",
+  "homepage": "https://avayedawadi.github.io/storybook-pugh-chart",
   "bugs": {
     "url": "https://github.com/avayedawadi/storybook-pugh-chart/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
